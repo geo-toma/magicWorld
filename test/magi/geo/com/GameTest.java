@@ -38,7 +38,7 @@ class GameTest {
         Game game = new Game();
         game.characterCreation(2);
         String[] output = outContent.toString().replace("\r\t","\n").split("\n");
-        assertEquals("The information not correspond! Please reconfigure your player",output[7]);
+        assertEquals("The information not correspond! Please reconfigure your player",output[6]);
         assertTrue(Accessory.character2 instanceof Wizard);
     }
 

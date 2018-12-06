@@ -103,7 +103,7 @@ public class Accessory {
             character1.setLife(life);
         } else {
             character2 = character;
-            life = character1.getLevel() * 5;
+            life = character2.getLevel() * 5;
             character2.setLife(life);
         }
     }
